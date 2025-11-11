@@ -1,0 +1,15 @@
+C:\WS\src\C#\Week2Fundamentals\Week2Fundamentals\Week2Fundamentals\bin\Debug\net6.0\Week2Fundamentals.exe
+C:\WS\src\C#\Week2Fundamentals\Week2Fundamentals\Week2Fundamentals\bin\Debug\net6.0\Week2Fundamentals.deps.json
+C:\WS\src\C#\Week2Fundamentals\Week2Fundamentals\Week2Fundamentals\bin\Debug\net6.0\Week2Fundamentals.runtimeconfig.json
+C:\WS\src\C#\Week2Fundamentals\Week2Fundamentals\Week2Fundamentals\bin\Debug\net6.0\Week2Fundamentals.dll
+C:\WS\src\C#\Week2Fundamentals\Week2Fundamentals\Week2Fundamentals\bin\Debug\net6.0\Week2Fundamentals.pdb
+C:\WS\src\C#\Week2Fundamentals\Week2Fundamentals\Week2Fundamentals\obj\Debug\net6.0\Week2Fundamentals.csproj.AssemblyReference.cache
+C:\WS\src\C#\Week2Fundamentals\Week2Fundamentals\Week2Fundamentals\obj\Debug\net6.0\Week2Fundamentals.GeneratedMSBuildEditorConfig.editorconfig
+C:\WS\src\C#\Week2Fundamentals\Week2Fundamentals\Week2Fundamentals\obj\Debug\net6.0\Week2Fundamentals.AssemblyInfoInputs.cache
+C:\WS\src\C#\Week2Fundamentals\Week2Fundamentals\Week2Fundamentals\obj\Debug\net6.0\Week2Fundamentals.AssemblyInfo.cs
+C:\WS\src\C#\Week2Fundamentals\Week2Fundamentals\Week2Fundamentals\obj\Debug\net6.0\Week2Fundamentals.csproj.CoreCompileInputs.cache
+C:\WS\src\C#\Week2Fundamentals\Week2Fundamentals\Week2Fundamentals\obj\Debug\net6.0\Week2Fundamentals.dll
+C:\WS\src\C#\Week2Fundamentals\Week2Fundamentals\Week2Fundamentals\obj\Debug\net6.0\refint\Week2Fundamentals.dll
+C:\WS\src\C#\Week2Fundamentals\Week2Fundamentals\Week2Fundamentals\obj\Debug\net6.0\Week2Fundamentals.pdb
+C:\WS\src\C#\Week2Fundamentals\Week2Fundamentals\Week2Fundamentals\obj\Debug\net6.0\Week2Fundamentals.genruntimeconfig.cache
+C:\WS\src\C#\Week2Fundamentals\Week2Fundamentals\Week2Fundamentals\obj\Debug\net6.0\ref\Week2Fundamentals.dll

@@ -1,0 +1,15 @@
+C:\WS\src\C#\DungeonCrawler\Week1DungeonCrawler\obj\Debug\net6.0\Week1DungeonCrawler.csproj.AssemblyReference.cache
+C:\WS\src\C#\DungeonCrawler\Week1DungeonCrawler\obj\Debug\net6.0\Week1DungeonCrawler.GeneratedMSBuildEditorConfig.editorconfig
+C:\WS\src\C#\DungeonCrawler\Week1DungeonCrawler\obj\Debug\net6.0\Week1DungeonCrawler.AssemblyInfoInputs.cache
+C:\WS\src\C#\DungeonCrawler\Week1DungeonCrawler\obj\Debug\net6.0\Week1DungeonCrawler.AssemblyInfo.cs
+C:\WS\src\C#\DungeonCrawler\Week1DungeonCrawler\obj\Debug\net6.0\Week1DungeonCrawler.csproj.CoreCompileInputs.cache
+C:\WS\src\C#\DungeonCrawler\Week1DungeonCrawler\bin\Debug\net6.0\Week1DungeonCrawler.exe
+C:\WS\src\C#\DungeonCrawler\Week1DungeonCrawler\bin\Debug\net6.0\Week1DungeonCrawler.deps.json
+C:\WS\src\C#\DungeonCrawler\Week1DungeonCrawler\bin\Debug\net6.0\Week1DungeonCrawler.runtimeconfig.json
+C:\WS\src\C#\DungeonCrawler\Week1DungeonCrawler\bin\Debug\net6.0\Week1DungeonCrawler.dll
+C:\WS\src\C#\DungeonCrawler\Week1DungeonCrawler\bin\Debug\net6.0\Week1DungeonCrawler.pdb
+C:\WS\src\C#\DungeonCrawler\Week1DungeonCrawler\obj\Debug\net6.0\Week1DungeonCrawler.dll
+C:\WS\src\C#\DungeonCrawler\Week1DungeonCrawler\obj\Debug\net6.0\refint\Week1DungeonCrawler.dll
+C:\WS\src\C#\DungeonCrawler\Week1DungeonCrawler\obj\Debug\net6.0\Week1DungeonCrawler.pdb
+C:\WS\src\C#\DungeonCrawler\Week1DungeonCrawler\obj\Debug\net6.0\Week1DungeonCrawler.genruntimeconfig.cache
+C:\WS\src\C#\DungeonCrawler\Week1DungeonCrawler\obj\Debug\net6.0\ref\Week1DungeonCrawler.dll

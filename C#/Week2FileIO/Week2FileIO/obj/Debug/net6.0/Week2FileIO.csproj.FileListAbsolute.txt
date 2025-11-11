@@ -1,0 +1,15 @@
+C:\WS\src\C#\Week2FileIO\Week2FileIO\bin\Debug\net6.0\Week2FileIO.exe
+C:\WS\src\C#\Week2FileIO\Week2FileIO\bin\Debug\net6.0\Week2FileIO.deps.json
+C:\WS\src\C#\Week2FileIO\Week2FileIO\bin\Debug\net6.0\Week2FileIO.runtimeconfig.json
+C:\WS\src\C#\Week2FileIO\Week2FileIO\bin\Debug\net6.0\Week2FileIO.dll
+C:\WS\src\C#\Week2FileIO\Week2FileIO\bin\Debug\net6.0\Week2FileIO.pdb
+C:\WS\src\C#\Week2FileIO\Week2FileIO\obj\Debug\net6.0\Week2FileIO.csproj.AssemblyReference.cache
+C:\WS\src\C#\Week2FileIO\Week2FileIO\obj\Debug\net6.0\Week2FileIO.GeneratedMSBuildEditorConfig.editorconfig
+C:\WS\src\C#\Week2FileIO\Week2FileIO\obj\Debug\net6.0\Week2FileIO.AssemblyInfoInputs.cache
+C:\WS\src\C#\Week2FileIO\Week2FileIO\obj\Debug\net6.0\Week2FileIO.AssemblyInfo.cs
+C:\WS\src\C#\Week2FileIO\Week2FileIO\obj\Debug\net6.0\Week2FileIO.csproj.CoreCompileInputs.cache
+C:\WS\src\C#\Week2FileIO\Week2FileIO\obj\Debug\net6.0\Week2FileIO.dll
+C:\WS\src\C#\Week2FileIO\Week2FileIO\obj\Debug\net6.0\refint\Week2FileIO.dll
+C:\WS\src\C#\Week2FileIO\Week2FileIO\obj\Debug\net6.0\Week2FileIO.pdb
+C:\WS\src\C#\Week2FileIO\Week2FileIO\obj\Debug\net6.0\Week2FileIO.genruntimeconfig.cache
+C:\WS\src\C#\Week2FileIO\Week2FileIO\obj\Debug\net6.0\ref\Week2FileIO.dll
