@@ -1,0 +1,15 @@
+C:\WS\src\C#\Algorithms\Trees\Trees\bin\Debug\net6.0\Trees.exe
+C:\WS\src\C#\Algorithms\Trees\Trees\bin\Debug\net6.0\Trees.deps.json
+C:\WS\src\C#\Algorithms\Trees\Trees\bin\Debug\net6.0\Trees.runtimeconfig.json
+C:\WS\src\C#\Algorithms\Trees\Trees\bin\Debug\net6.0\Trees.dll
+C:\WS\src\C#\Algorithms\Trees\Trees\bin\Debug\net6.0\Trees.pdb
+C:\WS\src\C#\Algorithms\Trees\Trees\obj\Debug\net6.0\Trees.csproj.AssemblyReference.cache
+C:\WS\src\C#\Algorithms\Trees\Trees\obj\Debug\net6.0\Trees.GeneratedMSBuildEditorConfig.editorconfig
+C:\WS\src\C#\Algorithms\Trees\Trees\obj\Debug\net6.0\Trees.AssemblyInfoInputs.cache
+C:\WS\src\C#\Algorithms\Trees\Trees\obj\Debug\net6.0\Trees.AssemblyInfo.cs
+C:\WS\src\C#\Algorithms\Trees\Trees\obj\Debug\net6.0\Trees.csproj.CoreCompileInputs.cache
+C:\WS\src\C#\Algorithms\Trees\Trees\obj\Debug\net6.0\Trees.dll
+C:\WS\src\C#\Algorithms\Trees\Trees\obj\Debug\net6.0\refint\Trees.dll
+C:\WS\src\C#\Algorithms\Trees\Trees\obj\Debug\net6.0\Trees.pdb
+C:\WS\src\C#\Algorithms\Trees\Trees\obj\Debug\net6.0\Trees.genruntimeconfig.cache
+C:\WS\src\C#\Algorithms\Trees\Trees\obj\Debug\net6.0\ref\Trees.dll

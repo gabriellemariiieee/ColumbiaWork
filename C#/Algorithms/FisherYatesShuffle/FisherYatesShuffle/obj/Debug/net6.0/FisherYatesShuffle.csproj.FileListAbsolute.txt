@@ -1,0 +1,15 @@
+C:\WS\src\C#\Algorithms\FisherYatesShuffle\FisherYatesShuffle\bin\Debug\net6.0\FisherYatesShuffle.exe
+C:\WS\src\C#\Algorithms\FisherYatesShuffle\FisherYatesShuffle\bin\Debug\net6.0\FisherYatesShuffle.deps.json
+C:\WS\src\C#\Algorithms\FisherYatesShuffle\FisherYatesShuffle\bin\Debug\net6.0\FisherYatesShuffle.runtimeconfig.json
+C:\WS\src\C#\Algorithms\FisherYatesShuffle\FisherYatesShuffle\bin\Debug\net6.0\FisherYatesShuffle.dll
+C:\WS\src\C#\Algorithms\FisherYatesShuffle\FisherYatesShuffle\bin\Debug\net6.0\FisherYatesShuffle.pdb
+C:\WS\src\C#\Algorithms\FisherYatesShuffle\FisherYatesShuffle\obj\Debug\net6.0\FisherYatesShuffle.csproj.AssemblyReference.cache
+C:\WS\src\C#\Algorithms\FisherYatesShuffle\FisherYatesShuffle\obj\Debug\net6.0\FisherYatesShuffle.GeneratedMSBuildEditorConfig.editorconfig
+C:\WS\src\C#\Algorithms\FisherYatesShuffle\FisherYatesShuffle\obj\Debug\net6.0\FisherYatesShuffle.AssemblyInfoInputs.cache
+C:\WS\src\C#\Algorithms\FisherYatesShuffle\FisherYatesShuffle\obj\Debug\net6.0\FisherYatesShuffle.AssemblyInfo.cs
+C:\WS\src\C#\Algorithms\FisherYatesShuffle\FisherYatesShuffle\obj\Debug\net6.0\FisherYatesShuffle.csproj.CoreCompileInputs.cache
+C:\WS\src\C#\Algorithms\FisherYatesShuffle\FisherYatesShuffle\obj\Debug\net6.0\FisherYatesShuffle.dll
+C:\WS\src\C#\Algorithms\FisherYatesShuffle\FisherYatesShuffle\obj\Debug\net6.0\refint\FisherYatesShuffle.dll
+C:\WS\src\C#\Algorithms\FisherYatesShuffle\FisherYatesShuffle\obj\Debug\net6.0\FisherYatesShuffle.pdb
+C:\WS\src\C#\Algorithms\FisherYatesShuffle\FisherYatesShuffle\obj\Debug\net6.0\FisherYatesShuffle.genruntimeconfig.cache
+C:\WS\src\C#\Algorithms\FisherYatesShuffle\FisherYatesShuffle\obj\Debug\net6.0\ref\FisherYatesShuffle.dll

@@ -1,0 +1,15 @@
+C:\WS\src\C#\Algorithms\Searching\Searching\bin\Debug\net6.0\Searching.exe
+C:\WS\src\C#\Algorithms\Searching\Searching\bin\Debug\net6.0\Searching.deps.json
+C:\WS\src\C#\Algorithms\Searching\Searching\bin\Debug\net6.0\Searching.runtimeconfig.json
+C:\WS\src\C#\Algorithms\Searching\Searching\bin\Debug\net6.0\Searching.dll
+C:\WS\src\C#\Algorithms\Searching\Searching\bin\Debug\net6.0\Searching.pdb
+C:\WS\src\C#\Algorithms\Searching\Searching\obj\Debug\net6.0\Searching.csproj.AssemblyReference.cache
+C:\WS\src\C#\Algorithms\Searching\Searching\obj\Debug\net6.0\Searching.GeneratedMSBuildEditorConfig.editorconfig
+C:\WS\src\C#\Algorithms\Searching\Searching\obj\Debug\net6.0\Searching.AssemblyInfoInputs.cache
+C:\WS\src\C#\Algorithms\Searching\Searching\obj\Debug\net6.0\Searching.AssemblyInfo.cs
+C:\WS\src\C#\Algorithms\Searching\Searching\obj\Debug\net6.0\Searching.csproj.CoreCompileInputs.cache
+C:\WS\src\C#\Algorithms\Searching\Searching\obj\Debug\net6.0\Searching.dll
+C:\WS\src\C#\Algorithms\Searching\Searching\obj\Debug\net6.0\refint\Searching.dll
+C:\WS\src\C#\Algorithms\Searching\Searching\obj\Debug\net6.0\Searching.pdb
+C:\WS\src\C#\Algorithms\Searching\Searching\obj\Debug\net6.0\Searching.genruntimeconfig.cache
+C:\WS\src\C#\Algorithms\Searching\Searching\obj\Debug\net6.0\ref\Searching.dll

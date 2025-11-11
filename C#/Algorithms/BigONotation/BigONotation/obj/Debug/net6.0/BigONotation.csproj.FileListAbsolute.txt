@@ -1,0 +1,15 @@
+C:\WS\src\C#\Algorithms\BigONotation\BigONotation\bin\Debug\net6.0\BigONotation.exe
+C:\WS\src\C#\Algorithms\BigONotation\BigONotation\bin\Debug\net6.0\BigONotation.deps.json
+C:\WS\src\C#\Algorithms\BigONotation\BigONotation\bin\Debug\net6.0\BigONotation.runtimeconfig.json
+C:\WS\src\C#\Algorithms\BigONotation\BigONotation\bin\Debug\net6.0\BigONotation.dll
+C:\WS\src\C#\Algorithms\BigONotation\BigONotation\bin\Debug\net6.0\BigONotation.pdb
+C:\WS\src\C#\Algorithms\BigONotation\BigONotation\obj\Debug\net6.0\BigONotation.csproj.AssemblyReference.cache
+C:\WS\src\C#\Algorithms\BigONotation\BigONotation\obj\Debug\net6.0\BigONotation.GeneratedMSBuildEditorConfig.editorconfig
+C:\WS\src\C#\Algorithms\BigONotation\BigONotation\obj\Debug\net6.0\BigONotation.AssemblyInfoInputs.cache
+C:\WS\src\C#\Algorithms\BigONotation\BigONotation\obj\Debug\net6.0\BigONotation.AssemblyInfo.cs
+C:\WS\src\C#\Algorithms\BigONotation\BigONotation\obj\Debug\net6.0\BigONotation.csproj.CoreCompileInputs.cache
+C:\WS\src\C#\Algorithms\BigONotation\BigONotation\obj\Debug\net6.0\BigONotation.dll
+C:\WS\src\C#\Algorithms\BigONotation\BigONotation\obj\Debug\net6.0\refint\BigONotation.dll
+C:\WS\src\C#\Algorithms\BigONotation\BigONotation\obj\Debug\net6.0\BigONotation.pdb
+C:\WS\src\C#\Algorithms\BigONotation\BigONotation\obj\Debug\net6.0\BigONotation.genruntimeconfig.cache
+C:\WS\src\C#\Algorithms\BigONotation\BigONotation\obj\Debug\net6.0\ref\BigONotation.dll
