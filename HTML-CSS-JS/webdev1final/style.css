@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Lobster&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #f2e7f5;
+    color: #462d86;
+    font-family: 'Indie Flower', cursive;
+    font-size: 1.5rem;
+}
+
+header, footer{
+    background-color: #dfc8e4;
+    padding: .8rem;
+}
+
+header{
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    flex-wrap: wrap;
+    top: 0;
+    left: 0;
+}
+
+.page-container{
+    min-height: 100vh;
+    position: relative;
+}
+
+main{
+    max-width: 80rem;
+    padding: .75rem;
+    padding-top: 5rem;
+    padding-bottom: 3rem;
+    margin: 1em auto;
+    text-align: center;
+}
+
+footer{
+    margin-top: auto;
+    width: 100%;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+}
+
+a{
+    padding-left: .25rem;
+    padding-right: .25rem;
+    font-size: 1.5rem;
+}
+
+.navigation{
+    padding-left: .5rem;
+}
+
+a:hover{
+    border-radius: 5rem;
+    border: .25rem solid #b793d2;
+}
+
+h1, h2{
+    font-family: 'Lobster', cursive;
+}
+
+div{
+    margin: auto auto;
+    padding: .75em;
+    display: grid;
+    gap: auto 1.25rem;
+    grid-auto-columns: auto;
+    justify-content: center;
+}
+
+img{
+    padding: 1em;
+    object-fit: cover;
+    width: 500px;
+    height: 500px;
+}

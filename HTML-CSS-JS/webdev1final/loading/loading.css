@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Lobster&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #f2e7f5;
+    font-family: 'Lobster', cursive;
+    color: #462d86;
+    display: flex;
+    justify-content: center;
+}
+
+header, footer{
+    background-color: #dfc8e4;
+    padding: .8rem;
+}
+
+header{
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    flex-wrap: wrap;
+    top: 0;
+    left: 0;
+}
+
+footer{
+    margin-top: auto;
+    width: 100%;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Indie Flower', cursive;
+    position: absolute;
+    bottom: 0;
+}
+
+a{
+    padding-left: .25rem;
+    padding-right: .25rem;
+    font-size: 1.5rem;
+    font-family: 'Indie Flower', cursive;
+}
+
+a:hover{
+    border-radius: 5rem;
+    border: .25rem solid #b793d2;
+}
+
+h2{
+    padding-top: 20em;
+}
+
+div{
+    width: 5em;
+    height: 5em;
+    background-color: #9169c1;
+    position: absolute;
+    top: 30%;
+   
+    border-radius: 50%;
+    animation: bounce 1s infinite;
+}
+
+@keyframes bounce{
+    10% { transform: translateY(1em) }
+    20% { transform: translateY(3em) }
+    30% { transform: translateY(5em) }
+    40% {transform: translateY(7em) scale(2, .5)}
+    50% { transform: translateY(5em) }
+    60% {transform: translateY(3em) scale(.5, 1.5)}
+    80% { transform: translateY(1em)}
+}
