@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<!--coding help from Leo Hazou's GA_Week4.pptm and threejs.org-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Three JS</title>
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+    <script type="module">
+        import * as THREE from './js/three.module.js';
+        var width = window.innerWidth;
+        var height = window.innerHeight;
+        var myScene = new THREE.Scene();
+        var myProjectionCamera = new THREE.PerspectiveCamera(50,width/height,.1,1000);
+        myProjectionCamera.position.z = 2;
+        myProjectionCamera.updateProjectionMatrix();
+        var renderer = new THREE.WebGLRenderer({antialias:true});
+        renderer.setClearColor("#e5e5e5");
+        renderer.setSize(width,height);
+        document.body.appendChild(renderer.domElement);
+        window.addEventListener('resize',() => {
+            renderer.setSize(width/height);
+            myProjectionCamera.aspect = width/height;
+            myProjectionCamera.updateProjectionMatrix();
+        });
+
+        var light = new THREE.PointLight(0xFFFFFF, 1, 500);
+        light.position.set(10,0,25);
+        myScene.add(light);
+
+        var boxGeo = new THREE.BoxGeometry(1,1,1);
+        var boxMat = new THREE.MeshLambertMaterial({color:0xFFCC00});
+        var box = new THREE.Mesh(boxGeo,boxMat);
+        box.scale.set(0.4,0.4,0.4);
+        box.position.x = 0.5;
+        myScene.add(box);
+
+        var coneGeo = new THREE.ConeGeometry(5,10,8);
+        var coneMat = new THREE.MeshLambertMaterial({color:0x89E8EF});
+        var cone = new THREE.Mesh(coneGeo,coneMat);
+        cone.scale.set(0.05,0.05,0.05);
+        cone.position.x = -.5;
+        myScene.add(cone);
+
+        var sphereGeo = new THREE.SphereGeometry();
+        var sphereMat = new THREE.MeshBasicMaterial({color:0xFFFF00});
+        var sphere = new THREE.Mesh(sphereGeo, sphereMat);
+        sphere.scale.set(0.25,0.25,0.25);
+        myScene.add(sphere);
+
+        var diamondShape = new THREE.Shape();
+        diamondShape.moveTo(-.5,2.5);
+        diamondShape.lineTo(1,5);
+        diamondShape.lineTo(2.5,2.5);
+        diamondShape.lineTo(1,0);
+        var diamondGeo = new THREE.ShapeGeometry(diamondShape);
+        var diamondMesh = new THREE.MeshBasicMaterial({color:0x5AEB4D});
+        var diamond = new THREE.Mesh(diamondGeo, diamondMesh);
+        diamond.scale.set(0.07,0.07,0.07);
+        diamond.position.y = 0.33;
+        diamond.position.x = -0.06;
+        myScene.add(diamond);
+
+        renderer.render(myScene,myProjectionCamera);
+    </script>
+</body>
+</html>
