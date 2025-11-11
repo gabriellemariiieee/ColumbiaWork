@@ -1,0 +1,5 @@
+C:/WS/src/C++/Euchre/out/build/x64-debug/CMakeFiles/edit_cache.dir
+C:/WS/src/C++/Euchre/out/build/x64-debug/CMakeFiles/rebuild_cache.dir
+C:/WS/src/C++/Euchre/out/build/x64-debug/Euchre/CMakeFiles/Euchre_Game.dir
+C:/WS/src/C++/Euchre/out/build/x64-debug/Euchre/CMakeFiles/edit_cache.dir
+C:/WS/src/C++/Euchre/out/build/x64-debug/Euchre/CMakeFiles/rebuild_cache.dir

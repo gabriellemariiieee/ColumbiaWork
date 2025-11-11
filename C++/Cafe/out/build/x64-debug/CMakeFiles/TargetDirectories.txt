@@ -1,0 +1,5 @@
+C:/WS/src/GitHub/Cafe/Cafe/out/build/x64-debug/CMakeFiles/edit_cache.dir
+C:/WS/src/GitHub/Cafe/Cafe/out/build/x64-debug/CMakeFiles/rebuild_cache.dir
+C:/WS/src/GitHub/Cafe/Cafe/out/build/x64-debug/Cafe/CMakeFiles/Cafe.dir
+C:/WS/src/GitHub/Cafe/Cafe/out/build/x64-debug/Cafe/CMakeFiles/edit_cache.dir
+C:/WS/src/GitHub/Cafe/Cafe/out/build/x64-debug/Cafe/CMakeFiles/rebuild_cache.dir
