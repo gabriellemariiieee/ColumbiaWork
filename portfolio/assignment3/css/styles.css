@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed&family=Pacifico&display=swap');
+
+/* Basic CSS resets -- leveling slight inconsistencies in browsers */
+html, body {
+	margin:0px;
+	padding:0px;
+	height:100%;
+}
+
+html {
+		/* Standard text-settings below */
+	font-size: 1em;
+    line-height: 1.4em;
+}
+
+/* Mobile First CSS: we'll design for phone sizes first, then add media queries for tablets and desktop computers later */
+
+body {
+	background-color: #d9c1d7;
+    font-family: 'Fira Sans Condensed', 'Arial', sans-serif;    
+    color: #0D0D0D;
+}
+
+nav ul{
+    list-style: none;
+    padding-left: 5px;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+li a{
+    padding: 3px 3px;
+    text-decoration: none;    
+    color: #0D0D0D;
+}
+
+a:hover{
+    color: #D9B9A7;
+}
+
+h1 {
+    font-family: 'Pacifico', 'Brush Script M7', cursive;
+}
+
+.socials a, .socials p{
+    display: inline-block;
+}
+
+.socials, h2{
+    text-align: center;
+}
+
+.topandbottom{
+    background-color: #86728c;
+    width: 100%;
+    min-height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.topandbottom footer{
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#container {
+	width:90%;
+	margin:auto;
+}
+
+figure {
+	margin:0px;
+}
+
+figure img {
+	width:100%;
+}
+
+nav section {
+	border:1px solid #D9B9A7;
+    background-color: #86728c;
+    margin: 12px 0;
+    padding: 5px 5px;
+}
+
+/* A better looking default horizontal rule */
+hr {
+    display: block;
+    height: 1px;
+    border: 0px;
+    border-top: 1px solid #ccc;
+    margin: 1em 0px;
+    padding: 0px;
+}
+
+/* ========================================
+MEDIA QUERIES!
+You can adjust the min-width numbers below, and add as many new media queries as you need.
+======================================== */
+
+/* Minimum width for iPads and tablets.  */
+@media all and (min-width: 481px) {
+	.desktop {
+        display: none;
+    }
+
+    .menu{
+        margin: 15px 0px;
+        min-height: 80vh;
+    }
+    
+} /* closes 481px+ */
+
+/* Minimum width for laptops. */
+@media all and (min-width: 769px) {
+	#container {
+		width:80%;
+	}
+	
+    .mobile {
+        display: none;
+    }
+
+    .desktop {
+        display: block;
+    }
+
+    nav {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    nav section {
+        flex: 0 1 48%;
+    }
+
+    .menu{
+        margin: 15px 25%;
+        min-height: 82vh;
+    }
+} /* closes 769px+ */
+
+/* Minimum width for desktop screens. */
+@media all and (min-width: 1024px) {
+    .mobile {
+        display: none;
+    }
+
+    .desktop {
+        display: block;
+    }
+
+	nav section {
+        flex: 0 1 32%;
+    }	
+} /* closes 1024px+ */
+
+
+
+
+

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Japanese Cuisine</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div id="container">
+        <header>
+            <h1>Japanese Food and It&#39;s History and Culture</h1>
+        </header>
+        <section id="one">
+            <p>
+                Food is something of great significance around the world. It is the basic necessity of survival and therefore sometimes taken for granted. Some people eat just to eat while others eat to savor the flavor and/or new experience. Food brings people together and can tell a story, the first Thanksgiving being a prime American example. It can also tell the history of a place or group of people given the cultural context surrounding it. Sushi and ramen are world wide known dishes and even though nigiri sushi can be as simple as a slice of fish on top of a bed of rice, it tells so many stories about not only history, but it can tell a lot about a person themself. 
+            </p>
+        </section>
+        <div id="ramen"></div>
+        <section id="two">
+            <p>
+                Jiro Ono, Japan&#39;s famous sushi chef, is a prime example of how food can tell you a lot about someone. After watching his documentary, I&#39;ve learned how much thought and effort actually goes into making sushi. Jiro has to know which fish is of an excellent quality as well as knowing what part of the fish he needs to cut. Achieving a master level of making high quality sushi takes a lot of patience and discipline. Because of this, the sushi in America, which is commonly maki rolls, can&#39;t begin to compare to the sushi made in Japan. The documentary also showed me how much trust there is between a sushi chef and his fish vendor. Jiro goes to the exact same person every time in the fish market so that he can guarantee fish that is worthy of being served. However, fish isn&#39;t the only part of making a quality dish. The person that sells rice to Jiro states that he only sells rice to Jiro as he is the only one who knows how to cook it. Sushi rice is Japanese short grained rice commonly seasoned with rice vinegar, sugar, and salt so making it is no easy task. The rice has to be cooked perfectly so as to not be undercooked and too hard or overcooked and too mushy. Someone who enjoys a nigiri from Jiro can learn that he is extremely dedicated to his craft and puts in all the thought, effort and care into making something for others to enjoy. 
+            </p>
+        </section>
+        <div id="sushi"></div>
+        <section id="three">
+            <p>
+                Because Japan is an island in the Pacific Ocean, fish being a primary part of their diet is a result of the resources provided to Japanese by nature which is how sushi became popular in the first place. Since America isn&#39;t an island, when sushi first became popular over here, it didn&#39;t use many of the commonly used types of fish in Japan. Also, because America doesn&#39;t hold Shinto traditions, which in regard to sushi is that raw fish is pure and rice was a gift from the gods, sushi didn&#39;t contain raw fish in the 70&#39;s but instead used fried shellfish such as crab and shrimp. Today, American sushi commonly consists of tuna, salmon, shrimp and imitation crab. However, due to the increased popularity, as well as America&#39;s love for mass production, overfishing is becoming a big problem, not only in America but in Japan as well.
+            </p>
+        </section>
+        <div id="takoyaki"></div>
+        <section id="four">
+            <p>Throughout history, due to trading and immigration, the food culture in Japan has changed drastically compared to what it was in ancient times. Italian-American immigrants have brought their food culture with them resulting in the exposure of pizza to Tokyo. Because the ingredients of pizza were not commonly found in the country, it was a delicacy only enjoyed by other Americans and those of a wealthy status. But as with many delicacies, the popularity was so significant that its ingredients evolved and is today enjoyed by the general public. Typically, cultural foods are the ones enjoyed on holidays, however, Japanese enjoy a very American food culture on Christmas- sharing a bucket of fried chicken from KFC. Even though many Americans celebrate Christmas and enjoy KFC, it isn&#39;t typically consumed for dinner on this holiday so how did it become a tradition in Japan? Simply due to marketing. In the 70&#39;s, KFC launched a campaign that translated to &quot;KFC for Christmas&quot;.</p>
+        </section>
+        <div id="pancakes"></div>
+        <section id="five">
+            <p>
+                Just as food can bring people together, it can also bring other cultures together. From everyday eats to delicacies, food holds major significance outside of it being needed for survival. It holds culture, traditions, values and history and therefore should always be enjoyed and shared no matter where it&#39;s from and who it&#39;s enjoyed by so we shouldn&#39;t be afraid to try something new, even it&#39;s something we may consider untraditional, as there&#39;s so much more that goes into than what meets the eye. 
+            </p>
+        </section>
+        <footer>
+            <p>&copy; Gabrielle Jones 2024</p>
+        </footer>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $(window).scroll(function( ){
+                var windowPosition = $(window).scrollTop();
+                var elementOffset = $('#two').offset().top;
+                var currentElementOffset = (elementOffset - windowPosition);
+
+                if (windowPosition > 400){
+                    $('#two p').addClass('slideIn');
+                } else {
+                    $('#two p').removeClass('slideIn');
+                    $('#two p').css('translate: -1000px');
+                }
+                
+                if (windowPosition > 1600) {
+                    $('#three p').css('font-size', '2em');
+                }
+                else {
+                    $('#three p').css('font-size', '1em');
+                }
+
+                if (windowPosition > 2800) {
+                     $('#four p').removeClass('upsideDown');
+                     $('#four p').addClass('rightSideUp');
+                } else {
+                     $('#four p').removeClass('rightSideUp');
+                     $('#four p').addClass('upsideDown');
+                }
+            });
+        });
+    </script>
+</body>
+</html>

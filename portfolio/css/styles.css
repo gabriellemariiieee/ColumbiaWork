@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Gamja+Flower&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Gamja Flower', 'Candara', sans-serif;
+    background-color: #c2d3ac;
+    color: #a14220;
+}
+
+main img{
+    padding-top: 40px;
+}
+
+main{
+    max-width: 1000px;
+    margin: 15px auto;
+    min-height: 85vh;
+    font-size: 1.3rem;
+    text-align: center;
+}
+
+main p{
+    font-size: 2rem;
+}
+
+main h1, .title {
+    font-family: 'Dancing Script', 'Brush Script M7', cursive;
+}
+
+figure{
+    margin: 0px;
+}
+
+figure img{
+    width: 50%;
+}
+
+.container{
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: auto;
+}
+
+nav ul{
+    list-style: none;
+    padding-left: 0px;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+
+}
+
+li a{
+    display: block;
+    padding: 5px 5px;
+    color: #a14220;
+    text-decoration: none;
+}
+
+header, footer{
+    background-color: #a8c582;
+}
+
+header{
+    top: 0;
+    left: 0;
+    padding: 5px 5px;
+}
+
+footer{
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header h1, header h2, header nav{
+    max-width: 1060px;
+    margin: 5px auto;
+    text-align: center;
+}
+
+.bio{
+    font-size: 1.6rem;
+}
+
+a:hover{
+    text-decoration: underline;
+}

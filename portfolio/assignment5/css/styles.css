@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Handlee&family=Kalam:wght@300;400;700&display=swap');
+
+html, body{
+	margin: 0px;
+	padding: 0px;
+	height: 100%;
+}
+
+body{
+	font-family: "Handlee", cursive, Arial;
+	background-color: #88d7ac;
+	color: 	#fdf8fe;
+}
+
+.night{
+	font-family: "Kalam", cursive, Arial;
+	background-color: #a46aff;
+	color: #2300bf;
+}
+
+main{
+	width: 75%;
+	margin: auto;
+	padding: 10px;
+}
+
+header, footer{
+	margin: 0;
+	padding: 5px 0px;
+	background-color: #fbe995;
+	color: #51c3e5;
+}
+
+.night-h{
+	background-color: #5520ff;
+	color:	#bc9aff;
+}
+
+img{
+	display: block;
+	margin: 0px auto;
+	width: 800px;
+}
+
+button{
+	display: block;
+	margin: 0px auto;
+	font-family: "Kalam", cursive, Arial;
+}
+
+h1, figcaption, footer{
+	text-align: center;
+}
+
+button.celestia{
+	background-color: #f6a1ff;
+}
+
+button.luna {
+	background-color: #8a41ff;
+}

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Assignment 5</title>
+</head>
+<body>
+    <div id="container">
+        <header>
+            <h1 class="celestia">Day</h1>
+            <h1 class="luna">Night</h1>
+        </header>
+        <main>
+            <div class="celestia">
+                <figure>
+                    <img src="img/princessCelestia.jpg" alt="Princess Celestia sitting on her throne">
+                    <figcaption>Image created using DeepAI Image Creator</figcaption>
+                </figure>
+                <p>
+                    &emsp;Princess Celestia is a central character in the animated television series "My Little Pony: Friendship is Magic," created by Lauren Faust. She is depicted as a wise and benevolent ruler who governs the magical land of Equestria alongside her sister, Princess Luna. As the ruler of Equestria, Princess Celestia embodies virtues such as wisdom, kindness, and patience. She is revered by her subjects for her fair and just rule. Throughout the series, Celestia plays a mentorship role, guiding the show's main characters, Twilight Sparkle and her friends, on their journeys of self-discovery and friendship.
+                </p>
+            </div>
+            <div class="luna">
+                <figure>
+                    <img src="img/princessLuna.jpg" alt="Princess Luna sitting on her throne">
+                    <figcaption>Image created using DeepAI Image Creator</figcaption>
+                </figure>
+                <p>
+                    &emsp;Princess Luna is another central character in the animated television series "My Little Pony: Friendship is Magic," created by Lauren Faust. She is the younger sister of Princess Celestia and together they rule over the magical land of Equestria. Throughout the series, Princess Luna's story serves as a powerful reminder of the potential for redemption and the enduring power of forgiveness and understanding. She evolves from a tragic figure consumed by darkness into a symbol of hope and renewal, embodying the show's themes of growth, perseverance, and the magic of friendship.
+                </p>
+            </div>
+            <button class="celestia">Click for the magic of friendship!</button>
+            <button class="luna">Click for the magic of friendship!</button>
+        </main>
+        <footer>
+            <div class="celestia">
+                <p>Paragraphs of both characters were written using ChatGPT so it may not have accurate information. Images were created using DeepAI so they might not be</p>
+                <p>&#169; Gabrielle Jones</p>
+            </div>
+            <div class="luna">
+                <p>Paragraphs of both characters were written using ChatGPT so it may not have accurate information. Images were created using DeepAI so they might not be</p>
+                <p>&#169; Gabrielle Jones</p>
+            </div>
+        </footer>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script>
+        $(document).ready(function(){
+            $('h1.luna').hide();
+            $('div.luna').hide();
+            $('button.luna').hide();
+            $('button.celestia').click(function(){
+                $('h1.celestia').hide();
+                $('div.celestia').hide();
+                $('button.celestia').hide();
+                $('button.luna').fadeIn();
+                $('h1.luna').fadeIn();
+                $('div.luna').fadeIn();
+                $('body').toggleClass('night');
+                $('header').toggleClass('night-h');
+                $('footer').toggleClass('night-h');
+            });
+            $('button.luna').click(function(){
+                $('h1.luna').hide();
+                $('div.luna').hide();
+                $('button.luna').hide();
+                $('button.celestia').fadeIn();
+                $('h1.celestia').fadeIn();
+                $('div.celestia').fadeIn();
+                $('body').toggleClass('night');
+                $('header').toggleClass('night-h');
+                $('footer').toggleClass('night-h');
+            });
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,92 @@
+html, body {
+	margin:0px;
+	padding:0px;
+	height:100%;
+}
+
+html {
+    size: 1em;
+    line-height: 1.4em;
+}
+
+#container {
+    height: 100%;
+}
+
+header, section, footer{
+    background: #DDEEEE;
+    color: #337788;
+    padding: 25px;
+}
+
+header, footer{
+    background: #88BBDD;
+    text-align: center;
+}
+
+#sushi, #ramen, #pancakes, #takoyaki {
+    height: 75%;
+}
+
+#sushi {
+    background: url('../img/sushi.jpg') fixed center no-repeat;
+    background-size: cover;
+}
+
+#pancakes {
+    background: url('../img/pancakes.JPG') fixed center no-repeat;
+    background-size: cover;
+}
+
+#ramen {
+    background: url('../img/ramen.JPG') fixed center no-repeat;
+    background-size: cover;
+}
+
+#takoyaki {
+    background: url('../img/takoyaki.JPG') fixed center no-repeat;
+    background-size: cover;
+}
+
+.slideIn {
+    animation: slideIn 3s steps(50, end);
+}
+
+.slideOut {
+    animation: slideOut 3s steps(50, end);
+}
+
+.upsideDown{
+    transform: rotate(180deg);
+}
+
+.rightSideUp {
+    transform: rotate(360deg);
+}
+
+@keyframes slideIn{
+    from { translate: -800px }
+    to { translate: 0px }
+}
+
+@keyframes slideOut{
+    from { translate: 0px }
+    to { translate: -800px }
+}
+
+@media all and (min-width: 768px) {
+	h1, p{
+        margin: 0px auto;
+        font-size: 1.25em;
+        line-height: 1.75em;
+    }	
+}
+
+@media all and (min-width: 1024px) {
+	h1, p{
+        max-width: 1000px;
+        margin: 0px auto;
+        font-size: 1.25em;
+        line-height: 1.75em;
+    }
+}
